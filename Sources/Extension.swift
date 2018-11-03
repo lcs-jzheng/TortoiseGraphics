@@ -37,6 +37,23 @@ public extension Tortoise {
         self.penUp()
     }
 
-  //  func upperCase J
+    func lowerCase_f() {
+        self.curve(withSides: 20000, withSize: 38, drawSides: 2)
+        self.curve(withSides: -30, withSize: 2, drawSides: 16)
+        self.curve(withSides: -4000, withSize: 12, drawSides: 10)
+        self.curve(withSides: -30, withSize: 2, drawSides: 17)
+        self.curve(withSides: -30, withSize: 35, drawSides: 1)
+        self.right(95)
+        self.curve(withSides: -4000, withSize: 12, drawSides: 1)
 
+    }
+
+    func lowerCase_e() {
+        self.curve(withSides: 200, withSize: 2, drawSides: 3)
+        self.curve(withSides: -30, withSize: 2, drawSides: 6)
+        self.right(20)
+        self.curve(withSides: -80, withSize: 3, drawSides: 10)
+        self.curve(withSides: -30, withSize: 1, drawSides: 10)
+        self.curve(withSides: -45, withSize: 3, drawSides: 25)
+    }
 }
