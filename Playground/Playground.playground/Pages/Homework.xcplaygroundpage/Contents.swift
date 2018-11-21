@@ -15,9 +15,9 @@ canvas.drawing { turtle in
     
     
     turtle.goto(0, 0)
-    turtle.beginFill()
+
     
-    for _ in 1...18 {
+    for _ in 1...36 {
         
         // Draw polygon
         turtle.polygon(withSize: 45)
@@ -31,13 +31,13 @@ canvas.drawing { turtle in
     for _ in 1...36 {
         
         // Draw a Triangel
-        turtle.triangle(withSize: 90)
+        turtle.triangle(withSize: 180)
         
         
         //Turn Angles
         turtle.left(10)
     }
-    turtle.endFill()
+    
 }
 
 
