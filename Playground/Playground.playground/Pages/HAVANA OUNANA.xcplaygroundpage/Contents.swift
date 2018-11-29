@@ -48,6 +48,10 @@ canvas.drawing { turtle in
         
     }
     
+    for _ in 1 ... 10{
+        turtle.curve(withSides: 30, withSize: 30, drawSides: 30)
+        turtle.left(36)
+    }
     for _ in 1 ... 60 {
        randomDrawingPolygon()
     }
